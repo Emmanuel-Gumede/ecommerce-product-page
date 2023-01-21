@@ -1,0 +1,27 @@
+.page {
+  min-width: 375px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media (min-width: '1440px') {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 10.3125rem;
+  }
+}
+
+.page__modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #000000;
+  opacity: 0.75;
+  z-index: 30;
+}
+
+.page__modal-hide {
+  display: none;
+}
